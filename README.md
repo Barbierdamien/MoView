@@ -20,6 +20,7 @@ Pour notre projet nous avons décidé des fonctionnalités suivantes:
 *  Générateur de citation de film
 *  Quiz
 *  Suggestion aléatoire de film
+*  Slider sur la page d'accueil
 ## Planning
 Nous n'avons pas de planning à proprement parler.
 Mais nous avons décidé de nous répartir la tâche équitablement.
