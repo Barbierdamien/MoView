@@ -1,0 +1,42 @@
+*{
+    background-color:#2E3941;
+}
+
+
+
+/* header */
+
+.header{
+    border: 3px solid red;
+    display:flex;
+    flex-direction: row;
+}
+.navbar{
+    border: 3px solid blueviolet;
+    display:flex;
+}
+.menu{
+    display:flex;
+    flex-direction: row;
+}
+
+li{
+    align-items: center;
+    margin-right:50%;
+}
+
+.bandeau{
+    width:100%;
+    margin:auto;
+}
+/* body */
+main{
+    border: 3px solid  orange;
+}
+
+.description{
+    background-color: yellow;
+    margin: auto;
+}
+
+/* footer */
