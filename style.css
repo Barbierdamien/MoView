@@ -7,6 +7,15 @@ body {
     height: 150vh;
 }
 
+.poster{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+}
+
+
+
 p {
     font-size: 16px;
 }
