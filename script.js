@@ -55,6 +55,7 @@ var randomMovie = randomMovieArray[randomNumber];
         var actors = response.Actors;
         var director = response.Director;
         var language = response.Language;
+        var imdbrating = response.imdbRating;
 
         if(image !== "N/A"){
             $('.poster').attr('src', image);
@@ -88,11 +89,9 @@ var randomMovie = randomMovieArray[randomNumber];
             $('.realisateur').text(director)
         }
 
-        if(language !== "N/A"){
-            $('.langue').text(language)
+        if(imdbrating !== "N/A"){
+            $('.noteImdb').text(imdbrating)
         }
-
-        
   
     // };
        
