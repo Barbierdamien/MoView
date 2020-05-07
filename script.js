@@ -26,17 +26,18 @@
 //    }
 
 
-var randomMovieArray = ['Star wars', 'Game of thrones','Harry Potter','Jurassic Park'];
+var randomMovieArray = ['Star wars', 'Game of thrones','Harry Potter','Lord of the rings'];
 
 
 
 // console.log(randomMovie);
 
 function apiCall() {
-    
+
 var randomNumber = Math.floor((Math.random() * randomMovieArray.length - 1 ) + 1);
 
 var randomMovie = randomMovieArray[randomNumber];
+
     $.getJSON('http://www.omdbapi.com/?i=tt3896198&apikey=81059d9e&t=' + encodeURI(randomMovie)).then(function(response){
         var image = response.Poster;
         var titre = response.Title;
@@ -46,7 +47,7 @@ var randomMovie = randomMovieArray[randomNumber];
         }
 
         if(titre !== "N/A"){
-            $('h3');
+            $('.titre');
         }
 
     });

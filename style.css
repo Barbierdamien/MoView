@@ -68,15 +68,13 @@ h1 {
 }
 
 .container {
-    max-width: 1540px;
+    max-width: 1740px;
 }
 
 .grid{
-    
-
     display: grid;
-
-    grid-template-columns: 384px 1fr;
+    grid-template-columns: 384px 1fr 300px;
+    margin:auto;
 }
 
 .card {
