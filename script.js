@@ -38,7 +38,7 @@ var randomNumber = Math.floor((Math.random() * randomMovieArray.length - 1 ) + 1
 
 var randomMovie = randomMovieArray[randomNumber];
 
-    $.getJSON('http://www.omdbapi.com/?i=tt3896198&apikey=81059d9e&t=' + encodeURI(randomMovie)).then(function(response){
+    $.getJSON('https://www.omdbapi.com/?i=tt3896198&apikey=81059d9e&t=' + encodeURI(randomMovie)).then(function(response){
         var image = response.Poster;
         var titre = response.Title;
 
