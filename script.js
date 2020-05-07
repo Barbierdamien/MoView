@@ -26,7 +26,7 @@
 //    }
 
 
-var randomMovieArray = ['Star wars', 'Game of thrones','Harry Potter','Lord of the rings'];
+var randomMovieArray = ['Star wars', 'Game of thrones','Harry Potter','Jurassic Park'];
 
 
 
