@@ -10,8 +10,8 @@ body {
 .poster{
     border: 2px solid black;
     border-radius: 20px;
-    width: 250px;
-    height: 350px;
+    width: 304px;
+    height: 454px;
 }
 
 
@@ -69,12 +69,24 @@ h1 {
 
 .container {
     max-width: 1740px;
+    margin: auto;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 384px 1fr 300px;
     margin:auto;
+}
+
+.gridDescr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
+}
+
+.gridInfo {
+    display:grid;
+    grid-template-columns: 200px 1fr;
 }
 
 .card {
@@ -85,18 +97,54 @@ h1 {
     
 }
 
+.aside {
+    height:145px;
+}
+
+
+
+
 h2  {
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
     color: #BFBFB8;
     line-height: 1.65;
     letter-spacing: 6px;
-    padding: 60px 0;
+    padding-top: 40px;
+    padding-bottom: 25px;
     margin: 0 48px;
 }
 
+h3 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #BFBFB8;
+    line-height: 1.65;
+    letter-spacing: 6px;
+    padding-bottom:20px;
+    margin: 0 48px;
+}
+
+h4 {
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+h5 {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: #BFBFB8;
+    line-height: 1.65;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 aside {
-    padding: 48px;
+    padding: 14px;
+}
+
+.side{
+    padding: 52px 48px
 }
 
 .borderbot {
@@ -185,7 +233,8 @@ label {
 }
 
 
-.bouton {
+.bouton,
+.random {
 	/* box-shadow: 3px 4px 0px 0px #8a2a21; */
 	background:linear-gradient(to bottom, #2ebaae 5%, #2ebaae 100%);
 	background-color:#2ebaae;
@@ -200,14 +249,19 @@ label {
 	text-decoration:none;
 	/* text-shadow:0px 1px 0px #810e05; */
 }
-.bouton:hover {
+.bouton:hover,
+.random:hover {
 	background:linear-gradient(to bottom, #2ebaae 5%, #2ebaae 100%);
-	background-color:#2ebaae;
+    background-color:#2ebaae; 
 }
-.bouton:active {
+
+.bouton:active,
+.bouron:active {
 	position:relative;
 	top:1px;
 }
+
+
 
 .imgcenter img {
     width: 100%;
@@ -216,4 +270,8 @@ label {
 
 strong{
     color: #2ebaae
+}
+
+.strong {
+    font-weight: bold;
 }
