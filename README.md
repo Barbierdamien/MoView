@@ -4,12 +4,10 @@ Projet ou le concept est simple: un site sur le thème du cinéma avec plusieurs
 
 «Mais comment avez-vous classé tous ces films ?» C'est simple, nous avons engagé une centaine de singes savants pour visionner chaque jour des dizaines de centaines de films et les classer selon ce que l'on ressent devant ces films. Nous avons dû aussi recruter des dizaines de gorilles chargés de surveiller – et châtier si nécessaire – les singes qui parfois sont un peu dissipés et ne respectent pas leur quota de films à voir. Ainsi, vous avez grandement intérêt à profiter de moview et à trouver de bons films à voir, au risque de renier le martyre de ces pauvres singes (et gorilles, qui se brisent le cœur à maltraiter des cousins).
 ## Équipe
-Nous sommes une équipe composée de 4 développeurs surentrainés.
+Nous sommes une équipe composée de 2 développeurs surentrainés.
 Nos noms ? 
-  *  Antonin
   *  Nathan
   *  Théo
-  *  Damien
 ## Choix techniques
 Suite à des problèmes au sein de l'équipe, nous avons décidé d'utiliser netlify pour avoir la possibilité de changer le nom de l'url.
 
