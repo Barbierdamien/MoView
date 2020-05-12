@@ -28,7 +28,7 @@ Chacun d'entre nous produira 1 page du site.
 
 ![Accueil](https://cdn.discordapp.com/attachments/657176841529982981/667390566262243346/unknown.png)
 ## APis
-Nous utiliserons pour cela principalement deux api : OMDb Api (http://www.omdbapi.com/) une database de film reliés à l'application IMDB  et MovieQuotes (https://juanroldan.com.ar/movie-quotes-api/) une database de citations.
+Nous utiliserons pour cela OMDb Api (http://www.omdbapi.com/) une database de film reliés à l'application IMDB.  
 
 
 https://moview.netlify.com/
