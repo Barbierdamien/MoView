@@ -6,10 +6,8 @@ Projet ou le concept est simple: un site sur le thème du cinéma avec plusieurs
 ## Équipe
 Nous sommes une équipe composée de 4 développeurs surentrainés.
 Nos noms ? 
-  *  Antonin
   *  Nathan
   *  Théo
-  *  Damien
 ## Choix techniques
 Suite à des problèmes au sein de l'équipe, nous avons décidé d'utiliser netlify pour avoir la possibilité de changer le nom de l'url.
 
